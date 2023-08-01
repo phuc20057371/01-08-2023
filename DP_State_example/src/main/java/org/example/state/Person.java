@@ -9,4 +9,7 @@ public class Person {
     public void applyFeel(){
         this.feel.feeling();
     }
+    public String getFeelName(){
+        return this.feel.feelName();
+    }
 }

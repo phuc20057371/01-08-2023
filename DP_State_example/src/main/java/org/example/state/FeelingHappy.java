@@ -5,4 +5,9 @@ public class FeelingHappy implements Feel{
     public void feeling() {
         System.out.println("i'm happy");
     }
+
+    @Override
+    public String feelName() {
+        return "Happy";
+    }
 }

@@ -12,5 +12,7 @@ public class Main {
 
         person.setFeel(new FeelingSad());
         person.applyFeel();
+        System.out.println(person.getFeelName());
+
     }
 }
